@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PERIGEE — Instruments for the night</title>
+  <meta name="description" content="Hand-figured telescopes built for dark skies. Ground, checked and re-checked until the sky agrees.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath d='M22 4a12 12 0 1 0 6 22A14 14 0 0 1 22 4z' fill='%23d9a04b'/%3E%3C/svg%3E">
+  <link rel="preload" href="assets/fonts/Fraunces-300.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/SpaceGrotesk-300.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+  <!-- film grain -->
+  <div class="grain" aria-hidden="true"></div>
+
+  <!-- custom cursor -->
+  <div class="cursor" aria-hidden="true"><span class="cursor-dot"></span><span class="cursor-ring"></span></div>
+
+  <!-- intro veil -->
+  <div class="veil" aria-hidden="true"><span class="veil-mark">PERIGEE</span></div>
+
+  <header class="nav" data-nav>
+    <a class="nav-brand" href="#top" data-magnet>PERIGEE</a>
+    <nav class="nav-links" aria-label="Primary">
+      <a href="#instrument" data-magnet>Instrument</a>
+      <a href="#optics" data-magnet>Optics</a>
+      <a href="#field" data-magnet>Field&nbsp;Notes</a>
+      <a href="#editions" data-magnet>Editions</a>
+    </nav>
+    <a class="nav-cta" href="#reserve" data-magnet>Reserve</a>
+  </header>
+
+  <main id="top">
+
+    <!-- ━━ 01 · HERO ━━ -->
+    <section class="hero" data-section="01">
+      <div class="hero-sky">
+        <img class="hero-moon" src="assets/img/moon-full.webp" alt="" data-parallax="-14">
+        <div class="hero-stars" aria-hidden="true"></div>
+        <img class="hero-ridge" src="assets/img/ridge.webp" alt="">
+        <div class="hero-fade" aria-hidden="true"></div>
+      </div>
+      <div class="hero-copy">
+        <p class="hero-eyebrow" data-reveal>Hand-built night-sky optics — № 001–250</p>
+        <h1 class="hero-title" data-split>The night,<br>in focus.</h1>
+        <div class="hero-foot" data-reveal>
+          <a class="btn btn-outline" href="#editions" data-magnet>Reserve an instrument</a>
+          <p class="hero-sub">Hand-figured telescopes built for dark skies.<br>Drawn aluminium, brass fittings, fluorite glass.</p>
+        </div>
+      </div>
+      <div class="hero-scroll" aria-hidden="true"><span></span>Scroll</div>
+    </section>
+
+    <!-- ━━ 02 · MANIFESTO ━━ -->
+    <section class="manifesto" data-section="02">
+      <p class="corner corner-tl" data-reveal>Est. 2019 — Atacama tested</p>
+      <p class="corner corner-tr" data-reveal>Field instruments, not furniture</p>
+      <h2 class="manifesto-line" data-scrub-words>
+        We build slow. Every lens is ground, checked, and
+        re-checked until the sky agrees<span class="amber">*</span>
+      </h2>
+      <p class="manifesto-foot" data-reveal><span class="amber">*</span>&nbsp;Each instrument star-tested on a real night, by a real pair of eyes.</p>
+    </section>
+
+    <!-- ━━ 03 · THE INSTRUMENT ━━ -->
+    <section class="instrument" id="instrument" data-section="03">
+      <figure class="instrument-visual">
+        <img src="assets/img/telescope-macro.webp" alt="Macro view of the Perigee brass focusing assembly" data-parallax-img>
+        <figcaption data-reveal>Focuser assembly — brass, knurled, 10:1 dual speed</figcaption>
+      </figure>
+      <div class="instrument-specs">
+        <p class="kicker" data-reveal>The instrument</p>
+        <h2 class="instrument-title" data-split>One tube.<br>Five decisions.</h2>
+        <ol class="spec-list">
+          <li data-reveal><i>01</i><b>Objective</b><span>102 mm fluorite doublet, f/7</span></li>
+          <li data-reveal><i>02</i><b>Tube</b><span>Drawn aluminium, hand-rubbed lacquer</span></li>
+          <li data-reveal><i>03</i><b>Focuser</b><span>Dual-speed 10:1, zero backlash</span></li>
+          <li data-reveal><i>04</i><b>Fittings</b><span>Solid brass, cut in-house</span></li>
+          <li data-reveal><i>05</i><b>Weight</b><span>4.1 kg — carries up the hill</span></li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ━━ 04 · OPTICS BENTO ━━ -->
+    <section class="optics" id="optics" data-section="04">
+      <div class="optics-head">
+        <p class="kicker" data-reveal>Optics &amp; finish</p>
+        <h2 data-split>Close enough<br>to touch.</h2>
+      </div>
+      <div class="bento">
+        <figure class="bento-cell" data-bento>
+          <img src="assets/img/lens-macro.webp" alt="Fluorite objective lens with coating reflections">
+          <figcaption><i>A</i>Fluorite objective — multicoated, hand-figured</figcaption>
+        </figure>
+        <figure class="bento-cell" data-bento>
+          <img src="assets/img/dial-macro.webp" alt="Knurled brass focusing dial">
+          <figcaption><i>B</i>Focus crown — 48 teeth, cut not cast</figcaption>
+        </figure>
+        <figure class="bento-cell" data-bento>
+          <img class="spin-slow" src="assets/img/starchart.webp" alt="Engraved star chart supplied with each instrument">
+          <figcaption><i>C</i>Sky atlas — engraved chart, your latitude</figcaption>
+        </figure>
+        <figure class="bento-cell" data-bento>
+          <img src="assets/img/knurl-texture.webp" alt="Fine knurled metal texture">
+          <figcaption><i>D</i>Grip surfaces — usable with gloves at −10°</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- ━━ 05 · FIELD NOTES ━━ -->
+    <section class="field" id="field" data-section="05">
+      <div class="field-bg"><img src="assets/img/observer.webp" alt="" data-field-img></div>
+      <div class="field-waypoints" aria-hidden="true">
+        <span class="wp" style="--d:0s"></span>
+        <span class="wp" style="--d:.7s"></span>
+        <span class="wp" style="--d:1.4s"></span>
+      </div>
+      <div class="field-copy">
+        <p class="kicker" data-reveal>Field note 014 — Atacama, 2,400 m</p>
+        <h2 data-split>The seeing settles<br>after midnight.</h2>
+        <p class="field-text" data-reveal>Cold air, no wind, the tube at ambient. Saturn holds steady
+        at 180×. This is the night the instrument was built for — and it is repeatable.</p>
+        <a class="link-arrow" href="#editions" data-reveal data-magnet>Read the field journal <em>→</em></a>
+      </div>
+    </section>
+
+    <!-- ━━ 06 · VOICES ━━ -->
+    <section class="voices" data-section="06">
+      <div class="paper" data-paper>
+        <span class="paper-quote" aria-hidden="true">“</span>
+        <blockquote class="quote quote-a" data-reveal>
+          <p>The focuser turns like a watch crown. After a week I stopped noticing
+          the instrument at all — which is exactly the point.</p>
+          <footer>
+            <img class="quote-face" src="assets/img/portrait-a.webp" alt="Portrait of M. Hale">
+            <span><b>M. Hale</b><br>Observatory astronomer, № 042</span>
+          </footer>
+        </blockquote>
+        <hr class="paper-rule">
+        <blockquote class="quote quote-b" data-reveal>
+          <p>Saturn's rings on the first try, from a rooftop in the city.
+          My daughter hasn't given the eyepiece back since.</p>
+          <footer>
+            <img class="quote-face" src="assets/img/portrait-b.webp" alt="Portrait of J. Brandt">
+            <span><b>J. Brandt</b><br>Member since 2022, № 117</span>
+          </footer>
+        </blockquote>
+      </div>
+    </section>
+
+    <!-- ━━ 07 · EDITIONS ━━ -->
+    <section class="editions" id="editions" data-section="07">
+      <div class="editions-head">
+        <p class="kicker" data-reveal>Editions</p>
+        <h2 data-split>Two hundred fifty,<br>then the moulds rest.</h2>
+      </div>
+      <div class="cards">
+        <article class="card" data-card>
+          <h3>Traveler</h3>
+          <p class="card-price">€ 2,400</p>
+          <ul>
+            <li>80 mm doublet, f/6.2</li>
+            <li>Waxed canvas field case</li>
+            <li>Two eyepieces, 25× / 60×</li>
+            <li>Ships in 4 weeks</li>
+          </ul>
+          <a class="btn btn-ghost" href="#reserve" data-magnet>Reserve Traveler</a>
+        </article>
+        <article class="card card-featured" data-card>
+          <p class="card-flag">Most reserved</p>
+          <h3>Observatory</h3>
+          <p class="card-price">€ 4,800</p>
+          <ul>
+            <li>102 mm fluorite doublet, f/7</li>
+            <li>Brass dual-speed focuser</li>
+            <li>Oak &amp; steel tripod included</li>
+            <li>Engraved sky atlas, your latitude</li>
+          </ul>
+          <a class="btn btn-solid" href="#reserve" data-magnet>Reserve Observatory</a>
+        </article>
+        <article class="card" data-card>
+          <h3>Archive</h3>
+          <p class="card-price">€ 9,500</p>
+          <ul>
+            <li>127 mm triplet, f/7.5</li>
+            <li>Numbered 1–25, signed</li>
+            <li>Night of first light with our optician</li>
+            <li>Lifetime re-figuring service</li>
+          </ul>
+          <a class="btn btn-ghost" href="#reserve" data-magnet>Enquire — Archive</a>
+        </article>
+      </div>
+    </section>
+
+    <!-- ━━ 08 · CLOSE + FOOTER ━━ -->
+    <section class="close" id="reserve" data-section="08">
+      <img class="close-moon" src="assets/img/moon-crescent.webp" alt="" data-float>
+      <h2 class="close-title" data-split>Point it up.</h2>
+      <a class="link-arrow link-arrow-lg" href="mailto:firstlight@perigee.example" data-reveal data-magnet>Begin your reservation <em>→</em></a>
+      <footer class="footer">
+        <p>© 2026 Perigee Optics</p>
+        <nav aria-label="Footer">
+          <a href="#top" data-magnet>Journal</a>
+          <a href="#top" data-magnet>Care</a>
+          <a href="#top" data-magnet>Instagram</a>
+          <a href="#top" data-magnet>Contact</a>
+        </nav>
+        <p class="footer-coord">55.6181° N — first light</p>
+      </footer>
+    </section>
+
+  </main>
+
+  <script src="js/vendor/gsap.min.js"></script>
+  <script src="js/vendor/ScrollTrigger.min.js"></script>
+  <script src="js/vendor/lenis.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
